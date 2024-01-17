@@ -1,0 +1,27 @@
+@import '@/styles/variable.scss';
+
+.wrapper {
+  width: 100%;
+  .reseaux_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    .reseaux_info {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.5rem;
+        color: $white_color;
+      }
+    }
+  }
+}

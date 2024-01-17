@@ -4,6 +4,7 @@ import '@/styles/variable.scss';
 
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import { NextUIProvider } from '@nextui-org/react';
 
 import MainLayout from '@/components/layouts/MainLayout';
 import HomeLayout from '@/components/layouts/HomeLayout';
@@ -26,13 +27,13 @@ export default function App({ Component, pageProps }) {
     Layout = MainLayout;
   }
   return (
-    <>
+    <NextUIProvider>
       <Head>
         <link rel="shortcut icon" href={Logo.src} />
       </Head>
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </>
+    </NextUIProvider>
   );
 }

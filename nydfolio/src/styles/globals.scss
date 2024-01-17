@@ -42,7 +42,7 @@ body {
 .p {
   color: $white_color;
   font-size: $font_size;
-  font-family: $second_font;
+  font-family: $first_font;
   &_small_small {
     font-size: $small_small_font_size;
   }
@@ -70,10 +70,10 @@ body {
     font-size: $big_font_size;
   }
   &_light {
-    color: $second_color;
+    color: $white_color;
   }
   &_light_small {
-    color: $second_color;
+    color: $white_color;
     font-size: $small_font_size;
   }
   &_light_medium {

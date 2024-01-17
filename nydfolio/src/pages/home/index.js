@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import style from './index.module.scss';
 
+import TextInput from '@/components/UI/Input_Text';
+
 const Index = () => {
   const router = useRouter();
 
@@ -18,6 +20,7 @@ const Index = () => {
   return (
     <div className={style.main_continer}>
       <h1>HOme</h1>
+      <TextInput />
     </div>
   );
 };

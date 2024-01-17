@@ -1,8 +1,12 @@
-import React from "react";
-import style from "./index.module.scss";
+import React from 'react';
+import style from './index.module.scss';
 
 const Index = () => {
-  return <div></div>;
+  return (
+    <div className={style.wrapper}>
+      <div className={style.footer}></div>
+    </div>
+  );
 };
 
 export default Index;

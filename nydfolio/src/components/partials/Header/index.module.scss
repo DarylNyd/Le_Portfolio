@@ -1,4 +1,4 @@
-@import "@/styles/variable.scss";
+@import '@/styles/variable.scss';
 
 // ------------------------------+
 //
@@ -11,7 +11,7 @@
   position: fixed;
   width: 100%;
   height: 100px;
-  z-index: 4;
+  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,26 +25,9 @@
     .nav_bar_logo {
       width: 280px;
       position: relative;
-      .logo_a,
-      .logo_o {
-        position: absolute;
+      justify-content: unset;
+      .logo {
         bottom: 0;
-      }
-      .logo_o {
-        transition: $transition_logo_nav_bar all;
-        left: 10px;
-      }
-      .logo_a {
-        transition: $transition_logo_nav_bar all;
-        left: 0px;
-        opacity: 1;
-      }
-      .letters {
-        transition: $transition_logo_nav_bar all;
-        position: absolute;
-        bottom: 0;
-        right: -20px;
-        opacity: 0;
       }
     }
     .nav_bar_link_cont {
@@ -112,17 +95,14 @@
 .navbar {
   &::before {
     pointer-events: none;
-    content: "";
+    content: '';
     position: absolute;
     top: 0px;
     left: 0;
     height: 100px;
     width: 100%;
-    background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0) 15%,
-      $first_color 250%
-    );
+    background: #000;
+    opacity: 30%;
   }
 }
 .navbar {
@@ -132,7 +112,7 @@
         .nav_bar_li {
           .span_link {
             &:before {
-              content: "";
+              content: '';
               position: absolute;
               bottom: 0;
               left: 0;
@@ -161,20 +141,9 @@
   .nav_cont {
     .nav_bar_logo {
       &:hover {
-        .letters {
+        .logo {
           opacity: 1;
           right: 0px;
-        }
-        .logo_o {
-          left: 0px;
-          transform: rotateY(180deg);
-          transform: rotateX(360deg);
-        }
-        .logo_a {
-          left: 124px;
-          opacity: 1;
-          transform: rotateY(180deg);
-          transform: rotateX(360deg);
         }
       }
     }
@@ -189,11 +158,11 @@
           .span_link {
             &.active:before {
               transform: translateX(0%);
-              background-color: $second_color;
+              background-color: $white_color;
             }
             &.active {
               p {
-                color: $second_color;
+                color: $white_color;
               }
             }
             &:hover p:nth-child(1) {
