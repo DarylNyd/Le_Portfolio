@@ -1,0 +1,20 @@
+@import '@/styles/variable.scss';
+
+// ------------------------------+
+//
+//          MAIN LAYOUT
+//
+// ------------------------------+
+
+.global_cont {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #19a7e3 0%,
+    rgba(27, 117, 156, 0.52) 36.27%,
+    rgba(111, 184, 216, 0.23) 71.6%,
+    rgba(2, 16, 21, 0) 100%
+  );
+  overflow: hidden;
+}
