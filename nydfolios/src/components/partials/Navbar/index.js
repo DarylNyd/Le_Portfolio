@@ -32,7 +32,7 @@ const Index = () => {
   return (
     <header className="w-screen px-32 py-8 font-medium flex items-center justify-between">
       <nav>
-        <CustomLink href="/" title="Home" className="mx-4" />
+        <CustomLink href="/home" title="Home" className="mx-4" />
         <CustomLink href="/about" title="About" className="mx-4" />
         <CustomLink href="/projects" title="Projects" className="mx-4" />
         <CustomLink href="/contact" title="Contact" className="mx-4" />

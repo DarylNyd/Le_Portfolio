@@ -1,14 +1,17 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
-import styles from '@/styles/Home.module.css';
+import React from 'react';
+import style from './index.module.scss';
 
-const inter = Inter({ subsets: ['latin'] });
+import Loader from '@/components/UI/Loader_page';
 
-export default function Home() {
+const Index = () => {
+  //add a usestate so that the loader appears onces
   return (
-    <>
-      <main className="">Home</main>
-    </>
+    <div className={style.prevention_cont}>
+      <div className={style.prevention}>
+        <Loader />
+      </div>
+    </div>
   );
-}
+};
+
+export default Index;
