@@ -30,7 +30,7 @@ const CustomLink = ({ href, title, className = '' }) => {
 
 const Index = () => {
   return (
-    <header className="w-screen px-32 py-8 font-medium flex items-center justify-between">
+    <header className="w-screen px-32 py-8 font-medium bg-light flex items-center justify-between backdrop-blur-md z-50">
       <nav>
         <CustomLink href="/home" title="Home" className="mx-4" />
         <CustomLink href="/about" title="About" className="mx-4" />
