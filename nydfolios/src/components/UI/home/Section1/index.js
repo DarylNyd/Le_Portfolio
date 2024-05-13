@@ -31,7 +31,7 @@ const Index = () => {
           />
           <h1 className="flex flex-row text-4xl font-bold text-left pt-2">
             I&apos;m &nbsp;
-            <h2 className="uppercase text-blue-500">
+            <span className="text-3xl uppercase text-blue-500">
               {' '}
               <Typewriter
                 options={{
@@ -44,7 +44,7 @@ const Index = () => {
                   loop: true,
                 }}
               />
-            </h2>
+            </span>
           </h1>
           <p className="text-dark pt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
