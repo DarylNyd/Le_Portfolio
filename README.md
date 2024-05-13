@@ -34,7 +34,7 @@ git clone https://github.com/DarylNyd/Le_Portfolio.git
 2. Accédez au répertoire du projet:
 
 ```bash
-cd nydfolio
+cd nydfolios
 ```
 
 3. Installez les dépendances:
