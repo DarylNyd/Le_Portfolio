@@ -43,7 +43,7 @@ const Index = () => {
   });
 
   return (
-    <div className="my-64">
+    <div className="my-20">
       <h2 className="font-bold text-8xl mb-32 w-full text-center">
         Experience
       </h2>
@@ -51,7 +51,7 @@ const Index = () => {
       <div ref={ref} className="w-[75%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute top-0 left-9 w-[4px] h-full bg-dark origin-top"
+          className="absolute top-0 left-9 w-[4px] h-full bg-light origin-top"
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details

@@ -29,10 +29,9 @@ const Index = () => {
             text="Wemcome to the Nydside"
             className="!text-6xl !text-left"
           />
-          <h1 className="flex flex-row text-4xl font-bold text-left pt-2">
+          <h1 className="flex flex-row text-4xl font-bold text-left pt-2 text-light">
             I&apos;m &nbsp;
-            <span className="text-3xl uppercase text-blue-500">
-              {' '}
+            <span className="text-3xl uppercase text-blue-500 mb-0 pt-1">
               <Typewriter
                 options={{
                   strings: [
@@ -46,7 +45,7 @@ const Index = () => {
               />
             </span>
           </h1>
-          <p className="text-dark pt-6">
+          <p className="text-light pt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -56,7 +55,7 @@ const Index = () => {
             <Link
               href="/"
               target={'_blank'}
-              className="flex items-center bg-black text-light mt-8 p-2.5 px-6 rounded-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+              className="flex items-center bg-light text-dark mt-8 p-2.5 px-6 rounded-lg font-semibold hover:text-light hover:bg-dark  border-2 border-solid border-transparent hover:border-dark"
               download={true}
             >
               Download My Resume

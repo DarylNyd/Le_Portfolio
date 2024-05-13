@@ -19,7 +19,7 @@ const CustomLink = ({ href, title, className = '' }) => {
       {title}
 
       <span
-        className={`h-[2px] inline-block bg-black absolute left-0 -bottom-0.5
+        className={`h-[2px] inline-block bg-light absolute left-0 -bottom-0.5
        group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? 'w-full' : 'w-0'}`}
       >
         &nbsp;
@@ -30,7 +30,7 @@ const CustomLink = ({ href, title, className = '' }) => {
 
 const Index = () => {
   return (
-    <header className="w-screen px-32 py-8 font-medium bg-light flex items-center justify-between backdrop-blur-md z-50">
+    <header className="w-screen px-32 py-8 font-medium flex items-center justify-between bg-[#03001417] backdrop-blur-md z-50">
       <nav>
         <CustomLink href="/home" title="Home" className="mx-4" />
         <CustomLink href="/about" title="About" className="mx-4" />
@@ -46,7 +46,7 @@ const Index = () => {
           whileTap={{ scale: 0.9 }}
           className="w-6 mx-3"
         >
-          <InstagramIcon />
+          <InstagramIcon className="bg-light rounded" />
         </motion.a>
         <motion.a
           href="https://twitter.com"

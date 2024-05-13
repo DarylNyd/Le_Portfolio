@@ -7,7 +7,7 @@ const Index = ({ reference }) => {
     offset: ['center end', 'center center'],
   });
   return (
-    <figure className="absolute left-0 stroke-dark">
+    <figure className="absolute left-0 stroke-light">
       <svg className="-rotate-90" width="75" height="75" viewBox="0 0 100 100">
         <circle
           cx="75"
@@ -19,7 +19,7 @@ const Index = ({ reference }) => {
           cx="75"
           cy="50"
           r="20"
-          className="stroke-[5px] fill-light"
+          className="stroke-[5px] fill-dark"
           style={{
             pathLength: scrollYProgress,
           }}

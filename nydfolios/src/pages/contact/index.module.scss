@@ -1,0 +1,80 @@
+@import '@/styles/variable.scss';
+
+// ------------------------------+
+//
+//         CONCTACT PAGE
+//
+// ------------------------------+
+
+
+.right_cont {
+  width: 80%;
+  display: flex;
+  margin: 0px 0px;
+  .form_cont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background: #014277;
+    backdrop-filter: blur(24px);
+    border-radius: 20px;
+    overflow: hidden;
+    &::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 90%;
+      height: 600px;
+      background: linear-gradient(
+        60deg,
+        transparent,
+        #45f3ff,
+        #45f3ff,
+        #45f3ff
+      );
+      animation: animate 10s linear infinite;
+      transform-origin: bottom right;
+      animation: animate 6s linear infinite;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 90%;
+      height: 600px;
+      background: linear-gradient(
+        60deg,
+        transparent,
+        #d9138a,
+        #d9138a,
+        #d9138a
+      );
+      animation: animate 10s linear infinite;
+      transform-origin: bottom right;
+      animation: animate 6s linear infinite;
+      animation-delay: -3s;
+    }
+  }
+  .form {
+    position: absolute;
+    inset: 4px;
+    border-radius: 20px;
+    background: #024c88;
+    padding: 10px 20px;
+    z-index: 10;
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
