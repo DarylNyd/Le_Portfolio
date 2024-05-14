@@ -11,7 +11,7 @@ import Head from 'next/head';
 
 const Index = () => {
   return (
-  <div className='w-full h-full'>
+  <div className='w-full h-full z-[100] relative bg-transparent mb-10'>
   <Head>
     <title>NYDFOLIO | Contact</title>
   </Head>

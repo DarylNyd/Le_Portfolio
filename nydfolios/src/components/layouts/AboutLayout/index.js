@@ -11,7 +11,7 @@ import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass';
 
 const Index = ({ children }) => {
-  {/*useEffect(() => {
+  useEffect(() => {
     const canvasCont = document.querySelector('#canvasCont');
     // Create the scene
     const scene = new THREE.Scene();
@@ -109,13 +109,13 @@ const Index = ({ children }) => {
       });
     };
     animate();
-  }, []);*/}
+  }, []);
   return (
     <div className="w-full min-h-screen overflow-x-hidden bg-[#030014]">
       <Navbar />
-      {/*<div className='fixed top-0 left-0 w-full h-screen' id='canvasCont'>
+      <div className='fixed top-0 left-0 w-full h-screen' id='canvasCont'>
       <canvas></canvas>
-  </div>*/}
+  </div>
       {children}
       <Footer />
     </div>

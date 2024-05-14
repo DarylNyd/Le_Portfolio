@@ -21,7 +21,7 @@ const Index = () => {
   const { scrollYProgress } = useScroll({target: ref});
   const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
   return (
-    <>
+    <div className='z-[100] relative bg-transparent'>
     <div className='flex w-full flex-col items-center justify-center pt-16 px-32'>
       <Head>
         <title>NYDFOLIO | Projects</title>
@@ -130,7 +130,7 @@ const Index = () => {
         </motion.div>
       </div>
       </div>
-    </>
+    </div>
   );
 };
 

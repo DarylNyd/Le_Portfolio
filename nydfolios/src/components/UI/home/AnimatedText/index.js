@@ -31,7 +31,7 @@ const singleword = {
 
 const Index = ({ text, className = '' }) => {
   return (
-    <div className="w-full mx-auto py-2 flex items-center justify-center overflow-hidden">
+    <div className="w-full mx-auto py-2 flex items-center justify-center overflow-hidden z-30">
       <motion.h1
         className={`inline-block w-full text-light font-bold text-8xl ${className}`}
         variants={quote}
