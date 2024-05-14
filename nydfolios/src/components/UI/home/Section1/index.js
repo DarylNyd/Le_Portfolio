@@ -53,7 +53,7 @@ const Index = () => {
           </p>
           <div className="flex items-center self-start mt-2">
             <Link
-              href="/"
+              href="/CV.pdf"
               target={'_blank'}
               className="flex items-center bg-light text-dark mt-8 p-2.5 px-6 rounded-lg font-semibold hover:text-light hover:bg-dark  border-2 border-solid border-transparent hover:border-dark"
               download={true}
@@ -67,7 +67,7 @@ const Index = () => {
             initial="hidden"
             animate="visible"
           >
-            <HireMe />
+            <HireMe href="/about" />
           </motion.div>
         </motion.div>
         <motion.div

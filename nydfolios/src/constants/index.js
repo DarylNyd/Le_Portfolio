@@ -227,6 +227,42 @@ export const Skill_data = [
     },
   ];
   
+  export const Projects = [
+    {
+      title: "Modern Nextjs Website",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      src: "/NextWebsite.png",
+    },
+    {
+      title: "Space Themed Website",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      src: "/SpaceWebsite.png",
+    },
+  
+  ];
+
+  export const Projects2 = [
+    {
+      src: "/NextWebsite.png",
+      title: "Modern Nextjs Website",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      href: "https://github.com/DarylNyd",
+    },
+    {
+      src: "/SpaceWebsite.png",
+      title: "Space Themed Website",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      href: "https://github.com/DarylNyd",
+    },
+    {
+      src: "/NextWebsite.png",
+      title: "Modern Nextjs Website",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      href: "https://github.com/DarylNyd",
+    },
+  
+  
+  ];
   
   
   

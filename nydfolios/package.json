@@ -16,6 +16,8 @@
     "@react-three/fiber": "^8.16.6",
     "framer-motion": "^11.1.9",
     "gsap": "^3.12.5",
+    "maath": "^0.10.7",
+    "math-random": "^2.0.1",
     "next": "^14.2.3",
     "prettier": "^3.2.5",
     "react": "^18",

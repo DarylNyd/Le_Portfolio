@@ -9,7 +9,7 @@ const Index = () => {
     <div className="flex flex-col items-center w-full min-h-screen px-14">
       <AnimatedText
         text="Let's know more about NYD"
-        className="mb-16 !text-6xl"
+        className="mb-8 !text-6xl"
       />
       <div className="w-full flex flex-row justify-between gap-16">
         <div className="w-1/3 flex flex-col items-start justify-start">
@@ -34,7 +34,7 @@ const Index = () => {
           </p>
         </div>
 
-        <div className="relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 pt-0">
+        <div className="relative h-max rounded-2xl border-2 border-solid border-dark p-8 pt-0">
           <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
           <Image
             src={Catman}
