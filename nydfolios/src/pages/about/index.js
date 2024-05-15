@@ -22,7 +22,7 @@ const Index = () => {
         <title>NYDFOLIO | About</title>
       </Head>
       <Transition />
-      <main className="flex w-full flex-col items-center text-light justify-center pt-20 px-32">
+      <main className="flex w-full flex-col items-center text-light justify-center pt-28 px-32">
         <Section1 />
         <Section2b />
         <Section3 />
