@@ -2,13 +2,13 @@
 
 # 🐼 Nydfolio
 
-![Nydfolio Logo](url_vers_votre_logo.png)
+![Nydfolio Logo](https://nydfolios.vercel.app/)
 
 Nydfolio est mon portfolio personnel réalisé avec Next.js, intégrant des animations, des expériences 3D avec Three.js, et présentant mes projets dans les domaines du web, du design, et de l'art (dessin).
 
 ## Aperçu
 
-![Aperçu du site](url_vers_capture_d_ecran.png)
+![Aperçu du site](port.jpg)
 
 ## Table des matières
 
@@ -46,31 +46,31 @@ npm install
 4. Démarrez l'application en mode développement:
 
 ```bash
-npm run dev 
+npm run dev
 ```
 
 5. Ouvrez votre navigateur et accédez à http://localhost:3000.
 
 ## Technologies utilisées
 
-* Next.js
-* Tailwind CSS
-* SCSS
-* Framer Motion
-* Three.js
+- Next.js
+- Tailwind CSS
+- SCSS
+- Framer Motion
+- Three.js
 
 ## Structure du projet
 
-* /pages: Contient les pages du site.
-* /components: Regroupe les composants réutilisables.
-* /styles: Les fichiers de styles, SCSS et Tailwind.
-* /public: Ressources statiques telles que les images.
+- /pages: Contient les pages du site.
+- /components: Regroupe les composants réutilisables.
+- /styles: Les fichiers de styles, SCSS et Tailwind.
+- /public: Ressources statiques telles que les images.
 
 ## Fonctionnalités
 
-* Page d'accueil avec informations personnelles, réseaux sociaux, parcours, et expériences.
-* Page de projets divisée en sections : web, design, art.
-* Page de contact pour me joindre.
+- Page d'accueil avec informations personnelles, réseaux sociaux, parcours, et expériences.
+- Page de projets divisée en sections : web, design, art.
+- Page de contact pour me joindre.
 
 ## Animations
 
@@ -84,9 +84,9 @@ Utilisation de Three.js pour intégrer des éléments 3D et ajouter une dimensio
 
 Pour toute question ou demande de collaboration, n'hésitez pas à me contacter:
 
-Email: 
-LinkedIn: 
+Email:
+LinkedIn:
 
 ## Credits
 
- by **_Yvan Daryl Ndenga Nemeck_**.
+by **_Yvan Daryl Ndenga Nemeck_**.
