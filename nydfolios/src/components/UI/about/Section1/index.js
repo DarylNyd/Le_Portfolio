@@ -12,7 +12,7 @@ const Index = () => {
         className="mb-8 !text-6xl"
       />
       <div className="w-full flex flex-row justify-between gap-16">
-        <div className="w-1/3 flex flex-col items-start justify-start z-30">
+        <div className="w-1/3 flex flex-col items-start justify-start z-10">
           <h1 className="!text-3xl font-bold mb-4">About NYDFOLIO</h1>
           <p className="!text-lg">
             NYDFOLIO is a portfolio website that showcases the projects and

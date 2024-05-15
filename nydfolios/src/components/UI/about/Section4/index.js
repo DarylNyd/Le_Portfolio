@@ -43,8 +43,8 @@ const Index = () => {
   });
 
   return (
-    <div className="my-10 mb-16">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center">
+    <div className="my-10 mb-16 z-20">
+      <h2 className="font-bold text-8xl text-light mb-32 w-full text-center">
         Education
       </h2>
 

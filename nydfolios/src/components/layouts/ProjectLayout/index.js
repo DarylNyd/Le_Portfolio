@@ -7,19 +7,19 @@ import StarsCanvas from '@/components/UI/StarBackground';
 
 const Index = ({ children }) => {
   return (
-    <div className="h-full &w-full">
+    <div className="h-full &w-full bg-[#030014]">
       <Navbar />
       <StarsCanvas />
-      <motion.div 
-      variants={{
-        hidden: { opacity: 0,y: 75 },
-        visible: { opacity: 1, y: 0 }
-      }}
-      initial="hidden"
-      animate="visible"
-      transition={{duration: 0.5, delay: 0.5}}
+      <motion.div
+        variants={{
+          hidden: { opacity: 0, y: 75 },
+          visible: { opacity: 1, y: 0 },
+        }}
+        initial="hidden"
+        animate="visible"
+        transition={{ duration: 0.5, delay: 0.5 }}
       >
-      {children}
+        {children}
       </motion.div>
       <Footer />
     </div>
