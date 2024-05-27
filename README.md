@@ -4,7 +4,9 @@
 
 ![Nydfolio Logo](Nyd_logo_icon.svg)
 
-Nydfolio est mon portfolio personnel réalisé avec Next.js, intégrant des animations, des expériences 3D avec Three.js, et présentant mes projets dans les domaines du web, du design, et de l'art (dessin). ![Voir le site](https://nydfolios.vercel.app/)
+Nydfolio est mon portfolio personnel réalisé avec Next.js, intégrant des animations, des expériences 3D avec Three.js, et présentant mes projets dans les domaines du web, du design, et de l'art (dessin). 
+
+- [Voir le site](https://nydfolios.vercel.app/)
 
 ## Aperçu
 
