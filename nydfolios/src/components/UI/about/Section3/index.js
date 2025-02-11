@@ -26,7 +26,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
             @{company}
           </a>
         </h3>
-        <span className="capitalize font-medium text-dark/75">
+        <span className="capitalize font-medium text-light/75">
           {time} | {address}
         </span>
         <p className="font-medium w-full">{work}</p>
@@ -43,8 +43,8 @@ const Index = () => {
   });
 
   return (
-    <div className="my-20">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center">
+    <div className="my-20 z-20">
+      <h2 className="font-bold text-8xl text-light mb-32 w-full text-center ">
         Experience
       </h2>
 
